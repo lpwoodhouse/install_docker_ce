@@ -1,7 +1,9 @@
 ---
 - name: update installed packages via dnf
   dnf:
-    name: "*, dnf-utils"
+    name:
+      - "*"
+      - "dnf-utils"
     state: latest
 
 - name: add docker-ce repository
