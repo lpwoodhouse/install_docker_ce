@@ -1,15 +1,6 @@
 ---
-
 - name: update installed packages via yum
-  yum:
-    name: "*, yum-utils"
-    state: latest
-
-- name: add docker-ce repository
-  shell: |
-    sudo yum-config-manager \
-    --add-repo \
-    {{ centos_baseurl }}
+  include_tasks: "{{ansible_distribution|lower}}_repo.yml"
 
 - name: install docker packages
   package:
