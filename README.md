@@ -45,7 +45,7 @@ None
 
 ## License
 
-MIT
+[![GitHub](https://img.shields.io/github/license/lpwoodhouse/playbook_install_docker_ce)](LICENSE)
 
 ## Author Information
 
