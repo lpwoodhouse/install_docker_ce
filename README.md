@@ -1,9 +1,11 @@
-# Ansible Play: install_docker
+# Ansible Playbook: install_docker_ce
+![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/playbook_install_docker_ce)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/playbook_install_docker_ce)
+![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/playbook_install_docker_ce)
 
-### <sub-heading>
+## Purpose
 
 This play is for installing docker and portainer on a linux host.<br>
-
 
 ## Requirements
 
