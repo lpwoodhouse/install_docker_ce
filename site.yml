@@ -15,7 +15,7 @@
       groupname: new_group      
     loop: "{{ linux_hosts }}"
 
-- name: install docker on centos host
+- name: install docker on host
   hosts: new_group,!localhost
   gather_facts: true
   become: true
@@ -27,7 +27,7 @@
   
   - name: install docker
     include_role:
-      name: install_docker_centos
+      name: install_docker
 
   - name: install portainer
     include_role:

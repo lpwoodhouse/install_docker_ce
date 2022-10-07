@@ -1,5 +1,5 @@
 ---
-- name: update installed packages via yum
+- name: configure docker repository
   include_tasks: "{{ansible_distribution|lower}}_repo.yml"
 
 - name: install docker packages

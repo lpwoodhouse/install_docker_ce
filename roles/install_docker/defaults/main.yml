@@ -1,5 +1,5 @@
 ---
-# default variables for install_docker_centos role
+# default variables for install_docker role
 
 centos_baseurl: https://download.docker.com/linux/centos/docker-ce.repo
 fedora_baseurl: https://download.docker.com/linux/fedora/docker-ce.repo

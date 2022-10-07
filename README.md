@@ -1,8 +1,8 @@
-# Ansible Play: install_docker_centos
+# Ansible Play: install_docker
 
 ### <sub-heading>
 
-This play is for installing docker and portainer on a centos host.<br>
+This play is for installing docker and portainer on a linux host.<br>
 
 
 ## Requirements
@@ -37,7 +37,7 @@ None
     - hosts: all
       become: true
       roles:
-        - install_docker_centos
+        - install_docker
         - install_portainer
 ```
 
