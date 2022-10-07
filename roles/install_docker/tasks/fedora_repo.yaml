@@ -6,6 +6,6 @@
 
 - name: add docker-ce repository
   shell: |
-    sudo dnf-config-manager \
+    sudo dnf config-manager \
     --add-repo \
     {{ fedora_baseurl }}
