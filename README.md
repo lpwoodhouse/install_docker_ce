@@ -1,4 +1,7 @@
 # Install Docker CE and Portainer
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Portainer](https://img.shields.io/badge/-Portainer-13BEF9?style=flat&logo=portainer&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-black?style=flat&logo=linux)
 [![playbook](https://img.shields.io/badge/Ansible-Playbook-blue)](site.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/install_docker_ce)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/install_docker_ce)
