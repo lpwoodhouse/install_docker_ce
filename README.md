@@ -2,7 +2,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Portainer](https://img.shields.io/badge/-Portainer-13BEF9?style=flat&logo=portainer&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-black?style=flat&logo=linux)
-[![playbook](https://img.shields.io/badge/Ansible-Playbook-blue)](site.yml)
+[![playbook](https://img.shields.io/badge/Ansible%20Playbook-grey?stype=flat&logo=ansible&logoColor=EE0000)](site.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/install_docker_ce)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/install_docker_ce)
 ![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/install_docker_ce)
